@@ -1,0 +1,261 @@
+[0410/181005:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0410/233825:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0410/233828:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0410/233838:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0410/233847:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/135017:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135020:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/135022:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135023:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/135027:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/135027:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135032:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135037:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135038:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/135042:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135047:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135052:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135057:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/135102:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/135132:INFO:CONSOLE(5)] "TypeError: Cannot read property 'data' of undefined
+    at A (https://se04.jandi.com/app/app/c69066b0.app.js:12:12334)
+    at i (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26059)
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26231
+    at l.$eval (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1395)
+    at l.$digest (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:31922)
+    at l.$apply (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1651)
+    at h (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9818)
+    at r (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:11669)
+    at XMLHttpRequest.v.onload (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:12209)", source: https://se04.jandi.com/app/app/e6c42e7b.vendor.js (5)
+[0411/135132:INFO:CONSOLE(5)] "TypeError: Cannot read property 'data' of undefined
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9350
+    at i (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26059)
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26231
+    at l.$eval (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1395)
+    at l.$digest (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:31922)
+    at l.$apply (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1651)
+    at h (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9818)
+    at r (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:11669)
+    at XMLHttpRequest.v.onload (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:12209)", source: https://se04.jandi.com/app/app/e6c42e7b.vendor.js (5)
+[0411/141303:INFO:CONSOLE(0)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: WebSocket is closed before the connection is established.", source: https://se04.jandi.com/app/#/channels/11851421 (0)
+[0411/141304:INFO:CONSOLE(0)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: WebSocket is closed before the connection is established.", source: https://se04.jandi.com/app/#/channels/11851421 (0)
+[0411/145324:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/145324:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/145326:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/145327:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/145327:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165107:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165119:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165125:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165129:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165129:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165130:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165131:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165134:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165135:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165137:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165144:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165145:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165145:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165158:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165201:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165207:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165209:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165212:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165213:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165217:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165217:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_CONNECTION_CLOSED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165711:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/165714:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165714:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165714:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165714:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165717:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165717:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165717:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/165717:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/175427:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/175427:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/175427:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/175427:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181731:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181733:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181733:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181734:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181738:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181739:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181749:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181749:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181752:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181754:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181757:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181758:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181758:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181759:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181802:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181805:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181808:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181811:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181820:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/181824:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182026:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182028:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182029:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182029:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182029:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182029:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182030:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182031:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182031:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182031:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182031:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182033:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182033:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182036:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182037:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182037:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182037:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182038:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182041:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182041:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182043:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182043:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182046:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182046:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182048:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182048:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182051:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182052:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182053:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182056:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182057:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182058:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182101:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182103:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182103:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182105:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182106:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182108:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182110:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182110:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182111:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182113:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182115:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182116:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182118:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182120:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182121:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182123:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182125:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182126:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182126:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182128:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182129:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182130:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182131:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182133:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182134:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182135:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182136:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182138:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182140:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182141:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182143:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182145:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182146:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182148:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182150:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182151:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182153:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182155:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182156:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182158:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182200:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182200:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182201:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182203:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182205:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182206:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182208:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/182208:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182210:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182211:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182213:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182215:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/182216:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192332:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192332:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_IO_SUSPENDED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192335:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192352:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192357:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192402:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192402:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192402:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192404:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192404:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192407:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192409:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192409:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192412:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192414:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192417:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192418:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192422:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192427:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192432:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192434:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192435:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192437:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192442:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192447:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192452:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192457:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192458:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192502:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192507:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192512:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192513:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/192517:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192522:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192527:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/192533:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/203311:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/203314:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/203316:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/203316:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/203316:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/223041:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0411/223045:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/223045:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/223045:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0411/223045:INFO:CONSOLE(5310)] "WebSocket connection to 'wss://ws.jandi.com/socket.io/?EIO=3&transport=websocket' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED", source: https://se04.jandi.com/app/bower_components/socket.io-client/socket.io.js (5310)
+[0412/020921:INFO:CONSOLE(5)] "TypeError: Cannot read property 'data' of undefined
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9350
+    at i (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26059)
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26231
+    at l.$eval (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1395)
+    at l.$digest (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:31922)
+    at l.$apply (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1651)
+    at h (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9818)
+    at r (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:11669)
+    at XMLHttpRequest.v.onload (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:12209)", source: https://se04.jandi.com/app/app/e6c42e7b.vendor.js (5)
+[0412/020921:INFO:CONSOLE(5)] "TypeError: Cannot read property 'data' of undefined
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9350
+    at i (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26059)
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26231
+    at l.$eval (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1395)
+    at l.$digest (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:31922)
+    at l.$apply (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1651)
+    at h (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9818)
+    at r (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:11669)
+    at XMLHttpRequest.v.onload (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:12209)", source: https://se04.jandi.com/app/app/e6c42e7b.vendor.js (5)
+[0412/020921:INFO:CONSOLE(5)] "TypeError: Cannot read property 'data' of undefined
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9350
+    at i (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26059)
+    at https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:26231
+    at l.$eval (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1395)
+    at l.$digest (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:31922)
+    at l.$apply (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:6:1651)
+    at h (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:9818)
+    at r (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:11669)
+    at XMLHttpRequest.v.onload (https://se04.jandi.com/app/app/e6c42e7b.vendor.js:5:12209)", source: https://se04.jandi.com/app/app/e6c42e7b.vendor.js (5)
