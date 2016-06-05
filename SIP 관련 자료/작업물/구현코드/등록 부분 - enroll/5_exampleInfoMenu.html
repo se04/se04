@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>강의 평가 질문 조회</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <script type="text/javascript">
+ <!--
+ function check_only1(chk)
+ {
+     var obj1 = document.getElementsByName("evalTarget");
+     for(var i=0; i<obj1.length; i++){
+         if(obj1[i] != chk){
+             obj1[i].checked = false;
+         }
+     }
+ }
+	function check_only2(chk)
+	{
+	    var obj1 = document.getElementsByName("exampleInfo");
+	    for(var i=0; i<obj1.length; i++){
+	        if(obj1[i] != chk){
+	            obj1[i].checked = false;
+	        }
+	    }
+	}
+	function draw_table(num)
+	{
+		for (var f=1; f <5; f++){
+			//조회 받은 코드값 수로 지정
+			document.write('<tr>');
+			document.write('<td width="80px">질문 코드</td><td width="90px">평가 대상 구분</td><td width="100px">유효기간 시작일</td><td width="100px">유효기간 종료일</td><td>질문 정보</td><td width="80px">답안 정보</td>');
+			document.write ('</td>');
+			document.write ('</tr>');}		
+	}
+	
+	function button1_click() 
+	{
+		var inputInfo = inputToLookUpCourseEvalQuestion();
+		if(inputInfo[0] != "실패") {
+			alert("질문 정보가 성공적으로 조회 되었습니다.");
+
+			//조회하는 부분 추가
+		}
+		else{
+			alert("질문 조회에 실패했습니다. 답안 정보를 선택하세요.");
+		}
+	}
+	
+	function button2_click() 
+	{
+		alert("질문 정보가 취소 되었습니다.");
+		self.location='1_Main.html';
+	}
+
+	 function inputToLookUpCourseEvalQuestion() {
+		 var exampleInfo = document.getElementsByName("exampleInfo");
+		 var checkedIdx = undefined;
+		 for(var i=0; i<exampleInfo.length; i++){
+			 if(exampleInfo[i].checked == true){
+				 checkedIdx = i;
+			 }
+		 }
+
+		 var inputInfo = new Array(2);
+		 if (checkedIdx != undefined) {
+			 inputInfo[0] = 4;
+			 if(checkedIdx == 0)
+				 inputInfo[1] = "주관식";
+			 else
+				 inputInfo[1] = "객관식";
+		 }
+		 else {
+			 inputInfo[0] = "실패";
+		 }
+		 return inputInfo;
+	 }
+//-->
+</script>
+</head>
+<body>
+<font size=6>강의 평가 질문 조회</font>
+<div id="main">
+<div id="menubar1">
+<ul>
+	<li><a href="1_Main.html">질문 코드</a></li> <br>
+	<li><a href="2_evalTargetMenu.html">평가 대상 구분</a></li> <br>
+	<li><a href="3_expirationDateMenu.html">유효 기간</a></li> <br>
+	<li><a href="4_questionInfoMenu.html">질문 정보</a></li> <br> <br>
+	<li><b href="5_exampleInfoMenu.html">답안 정보</b></li> <br> <br>
+</ul>
+</div>
+<div id="form">
+<form action="lookUpCourseEvalQuestion" method="post">
+    <div id="layer1">
+        <input type="text" id="questionCode" style="width:250px;" placeholder="질문 코드를 입력해 주세요" disabled>
+    </div>
+    <div id="layer2">
+        <input type="checkbox" name="evalTarget" value="chk1" onclick="check_only1(this)" disabled>강사
+        <input type="checkbox" name="evalTarget" value="chk2" onclick="check_only1(this)" disabled>과목
+    </div>
+    <div id="layer3">
+        <input type="date" value="date1" id="expirationDateStart" disabled /> ~ 
+		<input type="date" value="date2" id="expirationDateEnd" disabled  />
+    </div>
+    <div id="layer4">
+        <textarea id="questionInfo" placeholder = "질문 정보를 입력해 주세요" disabled></textarea>
+    </div>
+    <div id="layer5">
+        <input type="checkbox" name="exampleInfo" value="chk1" onclick="check_only2(this)" >주관식
+        <input type="checkbox" name="exampleInfo" value="chk2" onclick="check_only2(this)" >객관식
+    </div>
+    <div class="Btn">
+        <button type="submit" style="width:130px;" onclick="button1_click()">확인</button> 
+        <button type="reset" style="width:130px;" onclick="button2_click()">취소</button>
+    </div>
+	<div class="layer6" style="width:100%; height:80px; overflow:auto">
+	    <table border="1">
+		    <tr bgcolor=B5ADAD>
+		    <td width="80px">질문 코드</td><td width="90px">평가 대상 구분</td><td width="100px">유효기간 시작일</td><td width="100px">유효기간 종료일</td><td>질문 정보</td><td width="80px">답안 정보</td>
+		    </tr>
+		    <script language="javascript">
+		    draw_table(5)
+		    //조회한 코드 수 입력
+		    </script>
+	    </table>
+	</div>
+</form>
+</div>
+</div>
+ 
+</body>
+</html>
