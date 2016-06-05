@@ -72,9 +72,14 @@ div#menubar1  li b{
  }
 div#form {
     position: absolute;
+    width: 770px;
     left: 210px; 
     top: 10px;
 }
 div#main {
     position: relative;
+}
+table{
+	font-size:12px;
+	width:700px;
 }
