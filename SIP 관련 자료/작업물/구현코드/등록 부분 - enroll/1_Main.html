@@ -52,9 +52,10 @@
 	}
 
 	function inputToLookUpCourseEvalQuestion() {
-		var questionCode = document.getElementById("questionCode").select();
+		var questionCode = document.forms['input_form']['questionCode'].value;
 		var inputInfo = new Array(2);
-		if (questionCode != undefined) {
+		alert("a : " + questionCode)
+		if (questionCode != "") {
 			inputInfo[0] = 0;
 			inputInfo[1] = questionCode;
 		}
@@ -80,9 +81,9 @@
 </ul>
 </div>
 <div id="form">
-<form action="lookUpCourseEvalQuestion" method="post">
+<form name="input_form" method="post">
     <div id="layer1">
-        <input type="text" id="questionCode" style="width:250px;" placeholder="질문 코드를 입력해 주세요" >
+        <input type="text" id="questionCode" name="questionCode" style="width:250px;" placeholder="질문 코드를 입력해 주세요" >
     </div>
     <div id="layer2">
         <input type="checkbox" name="evalTarget" value="chk1" onclick="check_only1(this)" disabled>강사
