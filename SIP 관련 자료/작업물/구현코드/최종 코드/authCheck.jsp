@@ -1,9 +1,9 @@
 <%@ page  contentType="text/html;charset=euc-kr" 
-        import="java.sql.DriverManager,
-                   java.sql.Connection,
-                   java.sql.Statement,
-                   java.sql.ResultSet,
-                   java.sql.SQLException" %>
+    import="java.sql.DriverManager,
+        java.sql.Connection,
+        java.sql.Statement,
+        java.sql.ResultSet,
+        java.sql.SQLException" %>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <%
