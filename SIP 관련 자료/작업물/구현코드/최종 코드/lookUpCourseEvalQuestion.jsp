@@ -1,99 +1,125 @@
-<%@ 
-page  contentType="text/html;charset=euc-kr" 
-           import="java.sql.DriverManager,
-                   java.sql.Connection,
-                   java.sql.Statement,
-                   java.sql.ResultSet,
-                   java.sql.SQLException,
-                   java.util.*,
-                   java.text.*"%>
+<%@page  contentType="text/html;charset=utf-8"
+         import="java.sql.DriverManager,
+                 java.sql.Connection,
+                 java.sql.Statement,
+                 java.sql.ResultSet,
+                 java.sql.SQLException,
+                 java.util.*,
+                 java.text.*"
+%>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <%
- request.setCharacterEncoding("utf-8");  //Set encoding
- 
- String questionCode = request.getParameter("questionCode");            
- String evalTarget = request.getParameter("evalTarget");
- 
- String date1 = request.getParameter("expirationDateStart");
- String date2 = request.getParameter("expirationDateEnd");
- 
- String questionInfo = request.getParameter("questionInfo");
- String exampleInfo = request.getParameter("exampleInfo");
- String inputSum1 = "NULL";
- ResultSet rs   = null;
- 
- 
- try{
-  Class.forName("com.mysql.jdbc.Driver");
-  String url = "jdbc:mysql://localhost:3306/courseevalquestiontable?useUnicode=true&characterEncoding=utf-8";
-  Connection con = DriverManager.getConnection(url,"root","1234");
-  Statement stat = con.createStatement();
+    /*
+        ëª¨ë“ˆëª… : ê°•ì˜í‰ê°€ ì§ˆë¬¸ ì •ë³´ ì¡°íšŒ
+        ì‘ì„±ì : ì´ë„ì˜ˆ
+     */
+    request.setCharacterEncoding("utf-8");
 
-  String sql = "Select * from info where ";
-		  if(questionCode != "0")
-		  {
-		 	 inputSum1 = "Áú¹®ÄÚµå='"+questionCode+"'";
-		  }
-		  if(evalTarget != "0")
-		  {
-			  if("chk1".equals(evalTarget))
-			  {
-				  inputSum1 ="Æò°¡´ë»ó±¸ºĞ='°­»ç'";
-			  }
-			  else if("chk2".equals(evalTarget))
-			  {
-				 inputSum1 ="Æò°¡´ë»ó±¸ºĞ='°ú¸ñ'";
-			  }
-		  }
-		  
-		  if(date1 != "0")
-		  {
-		 	 inputSum1 = "À¯È¿±â°£½ÃÀÛ='"+date1+"'"+"AND À¯È¿±â°£Á¾·á='"+date2+"'";
-		 	
-		  }
-		  
-		  if(questionInfo != null)
-		  {
-		 	 inputSum1 = "Áú¹®Á¤º¸='"+questionInfo+"'";
-		  }
-		  
-		  if(exampleInfo != "0")
-		  {
-			  if("chk1".equals(exampleInfo))
-			  {
-				  inputSum1 ="´ä¾ÈÁ¤º¸='ÁÖ°ü½Ä'";
-			  }
-			  else if("chk2".equals(exampleInfo))
-			  {
-				 inputSum1 ="´ä¾ÈÁ¤º¸='°´°ü½Ä'";
-			  }
-		  }
-		  sql = sql + inputSum1;
-		  rs = stat.executeQuery(sql);
-		  
- }
- catch(SQLException e){
-  out.println( e );
- }
+    //ê²€ìƒ‰ì •ë³´ë¥¼ ë°›ì•„ì˜´
+    String questionCode = request.getParameter("questionCode");
+    String evalTarget = request.getParameter("evalTarget");
+    String date1 = request.getParameter("expirationDateStart");
+    String date2 = request.getParameter("expirationDateEnd");
+    String questionInfo = request.getParameter("questionInfo");
+    String exampleInfo = request.getParameter("exampleInfo");
 
-out.println("<table border=\"1\">");
-out.println("<tr bgcolor=B5ADAD>");
-out.println("<td width=\"80px\">Áú¹® ÄÚµå</td><td width=\"90px\">Æò°¡ ´ë»ó ±¸ºĞ</td>");
-out.println("<td width=\"100px\">À¯È¿±â°£ ½ÃÀÛÀÏ</td><td width=\"100px\">À¯È¿±â°£ Á¾·áÀÏ</td>");
-out.println("<td>Áú¹® Á¤º¸</td><td width=\"80px\">´ä¾È Á¤º¸</td>"); 
-out.println("</tr>"); 
+    //ë³€ìˆ˜ ì´ˆê¸°í™”
+    String inputSum1 = "NULL";
+    ResultSet rs   = null;
 
- while ( rs.next() )
- {
-	 out.println(rs.getString("À¯È¿±â°£½ÃÀÛ"));
-	 out.println("<tr>");
-	 out.println("<td width=\"80px\">"+rs.getString("Áú¹®ÄÚµå")+"</td>");
-	 out.println("<td width=\"90px\">"+rs.getString("Æò°¡´ë»ó±¸ºĞ")+"</td>");
-	 out.println("<td width=\"100px\">"+rs.getString("À¯È¿±â°£½ÃÀÛ")+"</td>");
-	 out.println("<td width=\"100px\">"+rs.getString("À¯È¿±â°£Á¾·á")+"</td>");
-	 out.println("<td>"+rs.getString("Áú¹®Á¤º¸")+"</td>");
-	 out.println("<td width=\"80px\">"+rs.getString("´ä¾ÈÁ¤º¸")+"</td>");
- }
-out.println("</table>");
+    //DB ì ‘ì† ë° ì¡°íšŒ
+    try{
+        //DB ì ‘ì†
+        Class.forName("com.mysql.jdbc.Driver");
+        String url = "jdbc:mysql://kumoh.info:3306/sogong";
+        Connection con = DriverManager.getConnection(url,"sogongRoot","sogong");
+        Statement stat = con.createStatement();
+
+        //ê°•ì˜í‰ê°€ ì§ˆë¬¸ ì •ë³´ ì¡°íšŒ
+        String sql = "Select * from info where ";
+
+        //ì§ˆë¬¸ì½”ë“œ ì¡°íšŒ
+        if(questionCode != "0")
+        {
+            inputSum1 = "ì§ˆë¬¸ì½”ë“œ='"+questionCode+"'";
+        }
+
+        //í‰ê°€ëŒ€ìƒ ì¡°íšŒ
+        if(evalTarget != "0")
+        {
+            if("chk1".equals(evalTarget))
+            {
+                inputSum1 ="í‰ê°€ëŒ€ìƒêµ¬ë¶„='ê°•ì‚¬'";
+            }
+            else if("chk2".equals(evalTarget))
+            {
+                inputSum1 ="í‰ê°€ëŒ€ìƒêµ¬ë¶„='ê³¼ëª©'";
+            }
+        }
+
+        //ìœ íš¨ê¸°ê°„ ì¡°íšŒ
+        if(date1 != "0")
+        {
+            inputSum1 = "ìœ íš¨ê¸°ê°„ì‹œì‘='"+date1+"'"+"AND ìœ íš¨ê¸°ê°„ì¢…ë£Œ='"+date2+"'";
+
+        }
+
+        //ì§ˆë¬¸ì •ë³´ ì¡°íšŒ
+        if(questionInfo != null)
+        {
+            inputSum1 = "ì§ˆë¬¸ì •ë³´='"+questionInfo+"'";
+        }
+
+        //ë‹µì•ˆì •ë³´ ì¡°íšŒ
+        if(exampleInfo != "0")
+        {
+            if("chk1".equals(exampleInfo))
+            {
+                inputSum1 ="ë‹µì•ˆì •ë³´='ì£¼ê´€ì‹'";
+            }
+            else if("chk2".equals(exampleInfo))
+            {
+                inputSum1 ="ë‹µì•ˆì •ë³´='ê°ê´€ì‹'";
+            }
+        }
+
+        //ì¿¼ë¦¬ë¬¸ ì‘ì„±
+        sql = sql + inputSum1;
+        rs = stat.executeQuery(sql);
+
+    }
+    catch(SQLException e)
+    {
+        out.println( e );
+    }
+%>
+
+<%
+    /*
+        ëª¨ë“ˆëª… : ê°•ì˜í‰ê°€ ì§ˆë¬¸ ì •ë³´ ì¶œë ¥
+        ì‘ì„±ì : ê¹€ì¢…í˜„
+    */
+
+    //í‘œ ì œëª© ì‘ì„±
+    out.println("<table border=\"1\">");
+    out.println("<tr bgcolor=B5ADAD>");
+    out.println("<td width=\"80px\">ì§ˆë¬¸ ì½”ë“œ</td><td width=\"90px\">í‰ê°€ ëŒ€ìƒ êµ¬ë¶„</td>");
+    out.println("<td width=\"100px\">ìœ íš¨ê¸°ê°„ ì‹œì‘ì¼</td><td width=\"100px\">ìœ íš¨ê¸°ê°„ ì¢…ë£Œì¼</td>");
+    out.println("<td>ì§ˆë¬¸ ì •ë³´</td><td width=\"80px\">ë‹µì•ˆ ì •ë³´</td>");
+    out.println("</tr>");
+
+    //ì¡°íšŒ ê²°ê³¼ ì¶œë ¥
+    while ( rs.next() )
+    {
+        out.println("<tr>");
+        out.println("<td width=\"80px\">"+rs.getString("ì§ˆë¬¸ì½”ë“œ")+"</td>");
+        out.println("<td width=\"90px\">"+rs.getString("í‰ê°€ëŒ€ìƒêµ¬ë¶„")+"</td>");
+        out.println("<td width=\"100px\">"+rs.getString("ìœ íš¨ê¸°ê°„ì‹œì‘")+"</td>");
+        out.println("<td width=\"100px\">"+rs.getString("ìœ íš¨ê¸°ê°„ì¢…ë£Œ")+"</td>");
+        out.println("<td>"+rs.getString("ì§ˆë¬¸ì •ë³´")+"</td>");
+        out.println("<td width=\"80px\">"+rs.getString("ë‹µì•ˆì •ë³´")+"</td>");
+        out.println("</tr>");
+    }
+    out.println("</table>");
 %>
