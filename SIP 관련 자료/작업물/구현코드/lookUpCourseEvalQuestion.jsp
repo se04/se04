@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<%
+<%!
 	public ResultSet lookUpCourseEvalQuestion(String inputInfo)
 	{
 		Connection con = null;
@@ -22,7 +22,7 @@
 		try{
 			Class.forName(driverName);	
 			con = DriverManager.getConnection(dbURL,"sogongRoot","sogong");
-			
+			stmt = con.createStatement();
 			String sql = "Select 질문코드, 평가대상구분, 유효기간시작, 유효기간종료, 질문정보, 답안정보  from CourseEvalQuestion where ";
 			for(int i = 0; i < inputLen; i++)
 			{
@@ -57,7 +57,9 @@
 			return rs;
 		}
 		catch(Exception e){
+			%>
 			alert("DB 접근 중 문제 발생");
+			<%!
 		}
 	}
 %>
